@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # Additional files
-chat_with_data/01_document_loading/docs
+chat_with_data/docs

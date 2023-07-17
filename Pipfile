@@ -4,13 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain = "*"
 python-dotenv = "*"
 openai = "*"
 pypdf = "*"
 yt-dlp = "*"
 pydub = "*"
 beautifulsoup4 = "*"
+tiktoken = "*"
+lark = "*"
+scikit-learn = "*"
+panel = "*"
+langchain = {extras = ["docarray"], version = "*"}
+jupyter-bokeh = "*"
 
 [dev-packages]
 ipykernel = "*"
