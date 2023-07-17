@@ -10,7 +10,9 @@ Based on [Langchain - Chat with your data](https://learn.deeplearning.ai/langcha
 2. [Document Splitting](#document-splitting)
 3. [Vectorstores and Embeddings](#vectorstores-and-embeddings)
 4. [Retrieval](#retrieval)
-5. [Question Answering] (#question-answering)
+5. [Question Answering](#question-answering)
+6. [Chat](#chat)
+
 
 ## Document Loading
 
