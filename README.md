@@ -10,6 +10,7 @@ Based on [Langchain - Chat with your data](https://learn.deeplearning.ai/langcha
 2. [Document Splitting](#document-splitting)
 3. [Vectorstores and Embeddings](#vectorstores-and-embeddings)
 4. [Retrieval](#retrieval)
+5. [Question Answering] (#question-answering)
 
 ## Document Loading
 
@@ -48,3 +49,10 @@ This section explains how to store and retrieve vectors for text retrieval. It c
 
 The retrieval section delves into the use of different types of retrievers for document retrieval. Apart from vectorstore retrieval, other methods like SVM and TF-IDF retrievers are also introduced. The section presents ways to enhance retrieval results, including the use of metadata for context-specific retrieval and contextual compression for more concise responses.
 
+## Question Answering
+
+This section shows how to build a question answering system and the different ways of condensating the information to fit the LLM limit number of tokens input.
+
+## Chat
+
+This section implements a full chat with memory of previous messages. The script `chat.py` implements a GUI to run the full chatbot with all the concepts explained in the previous sections. To run the GUI, we can just execute `python chat.py`, and this will launch the panel application in port `8080`.
