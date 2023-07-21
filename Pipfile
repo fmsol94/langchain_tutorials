@@ -16,6 +16,7 @@ scikit-learn = "*"
 panel = "*"
 langchain = {extras = ["docarray"], version = "*"}
 jupyter-bokeh = "*"
+pandas = "*"
 
 [dev-packages]
 ipykernel = "*"
